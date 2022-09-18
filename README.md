@@ -82,6 +82,11 @@ Agregar llave de despliegue en Github
 ```bash
 cat .ssh/id_rsa.pub
 ```
+Validar la clonación del repositorio
+```bash
+cd /tmp && git clone git@github.com:gfourmis/aws-ansible-deployment.git && rm -rf aws-ansible-deployment
+```
+
 Crear webhook en Github apuntando a http://my.ip.ec2.instance/
 
 ## Configurar Ansible

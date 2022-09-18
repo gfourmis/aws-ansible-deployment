@@ -101,3 +101,4 @@ sudo nano /etc/ansible/hosts
 3. [How To Write Ansible Playbooks](https://www.digitalocean.com/community/tutorial_series/how-to-write-ansible-playbooks)
 4. [Intro to playbooks](https://docs.ansible.com/ansible/latest/user_guide/playbooks_intro.html)
 5. [Ansible Tutorial for Beginners: Playbook, Commands & Example](https://www.guru99.com/ansible-tutorial.html)
+6. [Ansible Playbook Examples](https://www.middlewareinventory.com/blog/ansible-playbook-example/#What_is_Ansible_Playbook)

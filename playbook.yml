@@ -1,5 +1,7 @@
 ---
 - hosts: demoservers
+  vars:
+      user: ec2-user
   tasks:
     - name: Print message
       debug:
@@ -12,4 +14,9 @@
       loop:
         - sammy
         - erika
-        - brian        
+        - brian
+
+    - name: Ensure nginx is running
+      service:
+        name: nginx
+        state: started    
